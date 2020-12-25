@@ -11,7 +11,6 @@ Amplify.configure(awsconfig);
 
 ReactDOM.render(
   <React.StrictMode>
-  <h1>Fuego Bot</h1>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-
+import About from './components/About'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-          Coming Soon
-      </header>
+      Coming Soon
+      <About />
     </div>
   );
 }
